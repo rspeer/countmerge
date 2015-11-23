@@ -1,0 +1,6 @@
+key A	1
+key A	2
+key B	3
+...nonsense line...
+...another	nonsense line...
+key B	4
