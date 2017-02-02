@@ -22,11 +22,10 @@ fn main() {
 
     for line_opt in stdin.lock().lines() {
         let line = line_opt.unwrap();
-        let consumable_line = line.clone();
 
         // Split the line into a vector of two items: the value (which is at
         // the end of the line), and everything before it.
-        let parts: Vec<&str> = consumable_line.rsplitn(2, '\t').collect();
+        let parts: Vec<&str> = line.rsplitn(2, '\t').collect();
         if parts.len() < 2 {
             // If we didn't get a tab-separated line, become inactive and
             // print it as-is.
@@ -38,7 +37,7 @@ fn main() {
         }
         else {
             let this_key = parts[1].to_string();
-            let this_opt: Option<i64> = parts[0].clone().trim().parse().ok();
+            let this_opt: Option<i64> = parts[0].trim().parse().ok();
             match this_opt {
                 Some(n) => {
                     // This line ends with a numeric value.
