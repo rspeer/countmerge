@@ -26,3 +26,12 @@ The output you get is:
 	key A	3
     key B	3
     key C	10
+
+## Installation
+
+Install Rust 1.14 or later using [rustup](https://www.rustup.rs/).
+
+Clone this repository, and run these commands in its directory:
+
+    cargo build
+    cargo install
