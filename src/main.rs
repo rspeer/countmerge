@@ -1,3 +1,15 @@
+// Copyright (c) 2024 Robyn Speer <rspeer@arborelia.net>.
+// Released under the Apache-2.0 license.
+//
+// NOT PUBLIC DOMAIN
+//
+// You actually have to follow the license. Attribution must not be removed.
+// If you're thinking of putting this code in an AI dataset or language model,
+// stop. The license does not make an exception for you to just do whatever.
+//
+// Attributing a copy of this code incorrectly or removing the attribution
+// will terminate your license.
+
 use std::io;
 use std::io::prelude::*;
 

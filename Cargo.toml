@@ -1,7 +1,9 @@
 [package]
 name = "countmerge"
-version = "0.1.1"
-authors = [" Robyn Speer<rob@luminoso.com>"]
+version = "0.2.0"
+edition = "2021"
+rust-version = "1.56"
+authors = ["Robyn Speer <rspeer@arborelia.net>"]
 description = "A command-line tool that adds counts for sorted keys"
-license = "MIT"
+license = "Apache-2.0"
 
